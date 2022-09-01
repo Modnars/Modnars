@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 I'm modnarshen, a C++ programmer currently.
 
-- 🔭 I’m currently working on Tencent, Inc.
+- 🔭 I’m currently working on C++.
 - 🌱 I’m currently learning Swift, Hexo, C++20, Go...
 - 👯 I’m looking to collaborate on C++ development.
 - 🤔 I’m looking for help with iOS development.
