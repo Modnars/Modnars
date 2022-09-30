@@ -15,6 +15,17 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+```txt
+      ___   ___                __             
+     /   | /   |              /  \               
+    /    |/    | ______  ____/   /__  ________  ______
+   /     |     |/  __  \/  __   /   |/  /  _  |/  __  \
+  /   /  |  /  /  / /  /  / /  /  / |  /  /_| |  /_/  /
+ /   /|    /| /  /_/  /  /_/  /  /|   /  ___  | __  _/ 
+/___/ |___/ |_\______/\______/__/ |__/__/   | |/  \ \  
+                                            |/     \/
+```
+
 I'm modnarshen, a C++ programmer currently.
 
 - 🔭 I’m currently working on C++.
