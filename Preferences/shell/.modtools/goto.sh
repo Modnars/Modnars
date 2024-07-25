@@ -7,12 +7,16 @@ GOTO_ASSETS="/data/home/modnarshen/project/go/uasvr-go-assets"
 GOTO_PROMPT_CONF="conf"
 GOTO_CONF="/data/home/modnarshen/project/go/uasvr-go-assets"
 
-GOTO_DESTINATION=${1-${PROMPT_WORKSPACE}}
+if [ $# -lt 1 ]; then
+    GOTO_DESTINATION=${GOTO_PROMPT_WORKSPACE}
+else
+    GOTO_DESTINATION=$1
+fi
 
-if [ ${GOTO_DESTINATION} == ${GOTO_PROMPT_WORKSPACE} ]; then
+if [ ${GOTO_DESTINATION} = ${GOTO_PROMPT_WORKSPACE} ]; then
     cd ${GOTO_WORKSPACE}
-elif [ ${GOTO_DESTINATION} == ${GOTO_PROMPT_ASSETS} ]; then
+elif [ ${GOTO_DESTINATION} = ${GOTO_PROMPT_ASSETS} ]; then
     cd ${GOTO_ASSETS}
-elif [ ${GOTO_DESTINATION} == ${GOTO_PROMPT_CONF} ]; then
+elif [ ${GOTO_DESTINATION} = ${GOTO_PROMPT_CONF} ]; then
     cd ${GOTO_CONF}
 fi
